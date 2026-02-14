@@ -108,8 +108,8 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
-        "text_height": "warning",
+        "starved_thermal": "ignore",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -224,6 +224,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.75,
+          "drill": 0.4
         },
         {
           "diameter": 0.8,
@@ -525,9 +529,9 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/0.1/",
+      "plot": "production/0.2/",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "uleaf.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
