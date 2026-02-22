@@ -5232,6 +5232,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/STM32WB55CEU6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
