@@ -7,7 +7,7 @@
 	(title_block
 		(title "uLEAF Synth Core")
 		(date "2025-11-01")
-		(rev "0.2")
+		(rev "0.3")
 		(company "NU31 HackerSpace")
 		(comment 1 "Author: Artem Synytsyn <a.synytsyn@gmail.com>")
 	)
@@ -3634,6 +3634,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 50.8) (xy 212.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0083c251-9cc0-41fc-950c-594fe440c295")
+	)
+	(wire
+		(pts
 			(xy 92.71 121.92) (xy 92.71 123.19)
 		)
 		(stroke
@@ -3641,6 +3651,16 @@
 			(type default)
 		)
 		(uuid "0c57d982-aebd-4c74-8e83-0e01885d4c5c")
+	)
+	(wire
+		(pts
+			(xy 195.58 50.8) (xy 199.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cd1cfe-689b-4ddf-b6f9-b263d6086c7d")
 	)
 	(wire
 		(pts
@@ -3831,6 +3851,16 @@
 			(type default)
 		)
 		(uuid "76f35cde-a40f-42b5-b8de-2be1951fa55a")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 219.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d2afd7-4e72-49ba-8e9c-d33fca6a59f7")
 	)
 	(wire
 		(pts
@@ -4044,16 +4074,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 48.26) (xy 227.33 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d70888fe-dee0-47c6-8dfe-f0ff200a7928")
-	)
-	(wire
-		(pts
 			(xy 180.34 78.74) (xy 182.88 78.74)
 		)
 		(stroke
@@ -4091,16 +4111,6 @@
 			(type default)
 		)
 		(uuid "f9b44137-bc76-48a0-bfc3-037a3673fa7a")
-	)
-	(wire
-		(pts
-			(xy 195.58 50.8) (xy 212.09 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd78c76d-a91d-414a-9817-4fe6aa40ac0d")
 	)
 	(wire
 		(pts
@@ -6431,7 +6441,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2nF"
 			(at 231.14 57.1499 0)
 			(effects
 				(font
@@ -6830,6 +6840,74 @@
 			(project "uleaf"
 				(path "/874a55ff-c057-4393-8223-2ee8d8aefe2e"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69eda163-3aa6-4281-8e3b-e91328e4e509")
+		(property "Reference" "R3"
+			(at 203.2 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 203.2 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.2 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "021a5df8-7278-4d2c-89b8-5310673b6101")
+		)
+		(pin "1"
+			(uuid "7910bb78-a70e-46ad-ad70-3e7b32ad3c31")
+		)
+		(instances
+			(project "uleaf"
+				(path "/874a55ff-c057-4393-8223-2ee8d8aefe2e"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7880,7 +7958,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2nF"
 			(at 215.9 57.1499 0)
 			(effects
 				(font
@@ -8488,6 +8566,74 @@
 			(project "uleaf"
 				(path "/874a55ff-c057-4393-8223-2ee8d8aefe2e"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc1988d-9ee1-49bb-b769-7cda106d2f08")
+		(property "Reference" "R2"
+			(at 223.52 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 223.52 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 223.52 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbeab473-c73e-41cc-b146-7114aba8f81e")
+		)
+		(pin "1"
+			(uuid "9be6c370-9a45-41e2-b258-5ce2a23b6667")
+		)
+		(instances
+			(project "uleaf"
+				(path "/874a55ff-c057-4393-8223-2ee8d8aefe2e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
