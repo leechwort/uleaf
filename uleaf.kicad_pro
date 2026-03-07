@@ -529,10 +529,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/0.2/",
+      "plot": "production/0.3/",
       "pos_files": "",
       "specctra_dsn": "uleaf.dsn",
-      "step": "",
+      "step": "uleaf.step",
       "svg": "",
       "vrml": ""
     },

@@ -5735,7 +5735,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "ABM8-25.000MHZ-B2"
 			(at 32.258 43.434 90)
 			(effects
 				(font
@@ -6931,7 +6931,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "27pF"
 			(at 42.926 65.024 0)
 			(effects
 				(font
@@ -7286,7 +7286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "27pF"
 			(at 43.18 49.784 0)
 			(effects
 				(font
