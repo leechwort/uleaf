@@ -4123,7 +4123,7 @@
 		(uuid "ff6adcb6-b18a-43d6-9913-4d31abda8f38")
 	)
 	(label "OUT_L"
-		(at 212.09 48.26 0)
+		(at 227.33 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
